@@ -315,8 +315,4 @@
         tabContentContainers: '.tab-pane'
     });
     tabBet.init();
-    document.querySelector('chat-close').addEventListener('click', function() {
-        alert();
-        document.querySelector("chat-container").fadeOut();
-    });
 </script>

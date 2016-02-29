@@ -214,14 +214,11 @@ switch ($_GET['con']) {
             <div class="chat-message">eu sou</div>
         </div>
     </div>
-        <div class="chat-input"><textarea></textarea></div>
+        <div id="composeTxt" class="chat-input"><textarea></textarea></div>
       ';
-      $content.='<br><br><br><input type="text" id="composeTxt"><button onclick="javascript:compose($(\'#composeTxt\').val());return false;" id="composeBtn">Send</button>';
-      $content.='<div id="chatWindow"></div>';
       $content.='<script type="text/javascript">';
       $content.='initializeRefreshingFrameChat();';
       $content.='$("#composeTxt").keypress(function(e) { if (e.which==13) compose($("#composeTxt").val()); });';
-      $content.='$("#composeTxt").qtip({content:{text:\'Press enter to send\'},style:{classes:\'qtip-bootstrap qtip-shadow\'},position:{my:\'bottom left\',at:\'top left\'}});';
       $content.='</script>';
     }
   break;
