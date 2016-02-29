@@ -105,7 +105,7 @@
                                 <form action="#" id="auto_form">
                                     <div class="auto-play-block">
                                         <div class="row">
-                                            <input class="input" id="bt_wager_bB" placeholder="Base bet" type="text" required>
+                                            <input class="input" id="bt_wager_bB" placeholder="Base bet" type="text"  required="">
                                             <input class="input" id="bB_max_loss_val" placeholder="Max loss" type="text">
                                             <input class="input" id="bB_max_win_val" placeholder="Max Profit" type="text">
                                         </div>
@@ -114,7 +114,7 @@
                                                 <div style="padding-left: 3px">
                                                     <label>Operate</label>
                                                     <br>
-                                                    <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked" required>
+                                                    <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked" required="">
                                                     <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
                                                 </div>
                                                 <div style="padding-left: 3px">
