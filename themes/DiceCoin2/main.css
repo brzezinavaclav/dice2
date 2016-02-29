@@ -1,0 +1,102 @@
+@import "dicecoin.min.css";
+html, body {
+    height: auto;
+}
+.header .user-menu{
+    margin-right: 29px;
+}
+.mbet:hover a, a.bt_button:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.mbet a:focus{
+    text-decoration: none;
+}
+.fa{
+    position: relative;
+    top: -1px;
+    margin-right: 3px;
+}
+div.msgBox{
+    padding: 2em 2em 3em 2em;
+    color: #000;
+}
+div.msgBoxTitle{
+    border: none;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    color: #000;
+}
+div.msgBoxImage{
+    display: none;
+}
+.block-content table input[type="text"]{
+    width: 90px;
+}
+.select tr td:first-child {
+    width: 33%;
+}
+.select .second, .select .third {
+    width: 33%;
+}
+.select thead td{
+    text-align: center;
+}
+.select tbody td {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+.input_addon{
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    font-weight: 300;
+}
+.input, input[type="text"]{
+    font-weight: 300;
+}
+.select.info-block{
+    height: 90px;
+    cursor: default;
+}
+.under_over_num{
+    cursor: pointer;
+}
+.button.roll-dice:focus, .button.deposit:focus, .button.withdraw:focus{
+    text-decoration: none;
+    color: #fff;
+}
+label{
+    font-weight: 300;
+}
+.total-info .player-info .player-table {
+    height: 150px;
+}
+a.fa{
+    cursor: pointer;
+}
+a.fa:hover, a.fa:focus{
+    text-decoration: none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    outline: none;
+}
+.stats_switcher a.current, .stats_switcher a.current:hover, .stats_switcher a.current:focus {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+    outline: none;
+}
+.default-row td{
+    width: 16.6%;
+}
+.stats #content{
+    height: 350px;
+    overflow: hidden;
+}
+.default-row .status {
+    text-transform: uppercase;
+}

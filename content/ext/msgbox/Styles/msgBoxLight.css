@@ -1,0 +1,153 @@
+div.msgBox
+{
+    padding: 4em 3em;
+    position: fixed;
+    z-index: 1000;
+    font-family:Verdana;
+    width: 580px;
+    color: #000;
+    background-color: #fff;
+}
+
+div.msgBox .msgClose{
+    position: absolute;
+    right: 0px;
+    font-size: 1.5em;
+    padding: 15px;
+    color: #fff;
+    background: rgb(51,185,137);
+    margin: 0;
+    top: 0;
+    cursor: pointer;
+}
+div.msgBox .msgClose:hover, div.msgBox .msgClose:focus{
+    text-decoration: none;
+}
+div.msgBoxBackGround
+{
+    top:0;
+    left:0;
+    position:absolute;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index:999;
+}
+div.msgBoxTitle
+{
+    padding:5px 0 5px 0;
+    font-weight:lighter;
+    color:#444;
+    width:100%;
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+div.msgBoxContent
+{
+    font-size:11pt;
+    margin:0 3px 6px 3px;
+    display:inline-block;
+    float:left;
+    width: 100%;
+}
+div.msgBoxContent input[type="text"]{
+    font-size: 21px;
+    border: 2px solid #e7e7e7;
+    outline: 0;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: .6em .4em;
+    width: 380px;
+    margin: 7px 0;
+}
+div.msgBoxContent .dp_addr{
+    text-align: center;
+    color: #c7254e;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+div.msgBoxContent p
+{
+    padding:0;
+    height: 100%;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgb(115, 115, 115);
+    font-size: 1.2em;
+}
+div.msgBoxContent b{
+    color: #444;
+}
+div.msgBoxContent .dp_addr b{
+    color: #c7254e;
+}
+
+div.msgBoxContent span 
+{
+    display: table-cell;
+    vertical-align: middle;
+    color: #00335e;
+}
+
+div.msgBoxButtons
+{
+    display:inline-block;
+    width:100%;
+    text-align:right;
+}
+div.msgBoxButtons input[type='button']
+{
+    cursor:pointer;
+    color:#FFFFFF;
+    background-color: rgb(51, 185, 137);
+    border: medium none;
+    border-radius: 0px;
+    padding: 15px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+div.msgBoxContent .btn{
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: rgb(51, 185, 137);
+    border: medium none;
+    border-radius: 0px;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+div.msgBoxInputs
+{
+    margin:0 auto;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-top:5px;
+    width:195px;
+}
+div.msgInput input[type='text'],div.msgInput input[type='password']
+{
+    padding:4px;
+    border:1px solid #DFDFDF;
+    color:#2f2f2f;
+    width:180px;
+}
+div.msgInput text
+{
+    color:#2f2f2f;
+    font-size:10pt;
+}
+#_withdraw_content p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgb(115, 115, 115);
+    font-size: 1.2em;
+}
