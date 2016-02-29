@@ -20,6 +20,7 @@ include './inc/start.php';
     <link rel="shortcut icon" href="./favicon.ico">
     <link rel="stylesheet" type="text/css" href="themes/<?php echo $settings['activeTheme']; ?>/main.css">
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="content/ext/msgbox/Scripts/jquery.msgBox.js"></script>
     <link rel="stylesheet" type="text/css" href="content/ext/msgbox/Styles/msgBoxLight.css">
     <?php include './js/includer.php'; ?>
