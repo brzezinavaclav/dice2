@@ -466,7 +466,6 @@ function faucet(content) {
           'dataType': "json",
           'success': function(data) {
             if (data['success']=='true') {
-              _stats_content('giveaway');
               refreshBalance();
               lastClaimed=Date.now();            
             }
