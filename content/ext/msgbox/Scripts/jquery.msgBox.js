@@ -227,7 +227,6 @@ function msg (options) {
         hide();
     });
     $('#msgClaim').click(function (e) {
-        hide();
     });
     _hideCurrent=function() {
       hide();

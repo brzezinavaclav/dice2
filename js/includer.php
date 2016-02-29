@@ -467,6 +467,7 @@ function faucet(content) {
           'success': function(data) {
             if (data['success']=='true') {
               refreshBalance();
+                hide();
               lastClaimed=Date.now();            
             }
             else if (data['success']=='timenot') alert('Error: Minimal giveaway frequency is <?php echo $settings['giveaway_freq']; ?>s.');
