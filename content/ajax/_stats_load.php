@@ -214,7 +214,7 @@ switch ($_GET['con']) {
             <div class="chat-message">eu sou</div>
         </div>
     </div>
-        <div id="composeTxt" class="chat-input"><textarea></textarea></div>
+        <div class="chat-input"><textarea id="composeTxt"></textarea></div>
       ';
       $content.='<script type="text/javascript">';
       $content.='initializeRefreshingFrameChat();';
