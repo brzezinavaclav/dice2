@@ -220,8 +220,24 @@
 </div>
 
 <div class="chat-trigger" id="_st_chat" onclick="javascript:_stats_content('chat');return false;">Open Chat</div>
-<div style="width: 350px; height: 400px; right: 0; bottom: 0; display: none" id="chat-container">
+<div style="width: 350px; height: 400px; right: 0; bottom: 0;" id="chat-container">
 
+    <div class="chat-history" id="chat-history">
+        <div class="chat-entry">
+            <div class="chat-time">16:43:33</div>
+            <div class="chat-sender">
+                <a href="/user/stats/zmBNaP">Uvydywoje:</a>
+            </div>
+            <div class="chat-message">eu sou</div>
+        </div>
+        <div class="chat-entry">
+            <div class="chat-time">16:43:33</div>
+            <div class="chat-sender">
+                <a href="/user/stats/zmBNaP">Uvydywoje:</a>
+            </div>
+            <div class="chat-message">eu sou</div>
+        </div>
+    </div>
 </div>
 
 <script>
