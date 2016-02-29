@@ -315,4 +315,7 @@
         tabContentContainers: '.tab-pane'
     });
     tabBet.init();
+    $(function() {
+        $( ".ui-draggable" ).draggable();
+    });
 </script>
