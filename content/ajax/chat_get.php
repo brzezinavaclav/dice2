@@ -15,7 +15,7 @@ include '../../inc/functions.php';
 
 $content='';
 
-$messages=mysql_query("SELECT * FROM `chat` WHERE `time`>NOW()-INTERVAL 10 MINUTE ORDER BY `time` DESC");
+$messages=mysql_query("SELECT * FROM `chat` WHERE `time`>NOW()-INTERVAL 10 MINUTE ORDER BY `time` ASC");
 while ($message=mysql_fetch_array($messages)) {
   $sender=mysql_fetch_array(mysql_query("SELECT `alias` FROM `players` WHERE `id`=$message[sender] LIMIT 1"));
   $content.= '
