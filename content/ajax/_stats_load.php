@@ -196,7 +196,7 @@ switch ($_GET['con']) {
     else {
       $content.='
 <div class="chat-header">
-        <div class="chat-title">Dicecoin Chat</div><div class="chat-close"><i id="chat-close" class="fa fa-times"></i></div>
+        <div class="chat-title">Dicecoin Chat</div><div class="chat-close" onclick=javascript:$("#chat-container").fadeOut();><i class="fa fa-times"></i></div>
     </div>
     <div class="chat-history" id="chat-history">
     </div>

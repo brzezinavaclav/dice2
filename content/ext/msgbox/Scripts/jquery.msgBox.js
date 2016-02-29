@@ -233,7 +233,3 @@ function msg (options) {
       hide();
     }
 };
-
-$('#chat-close').click(function () {
-    alert();
-});
