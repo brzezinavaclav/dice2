@@ -315,5 +315,7 @@
         tabContentContainers: '.tab-pane'
     });
     tabBet.init();
-
+    $('#chat-close')click(function(){
+        $("#chat-container").fadeOut();
+    });
 </script>
