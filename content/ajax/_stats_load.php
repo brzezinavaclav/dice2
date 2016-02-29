@@ -213,8 +213,8 @@ switch ($_GET['con']) {
             </div>
             <div class="chat-message">eu sou</div>
         </div>
-        <div class="chat-input"><textarea></textarea></div>
     </div>
+        <div class="chat-input"><textarea></textarea></div>
       ';
       $content.='<br><br><br><input type="text" id="composeTxt"><button onclick="javascript:compose($(\'#composeTxt\').val());return false;" id="composeBtn">Send</button>';
       $content.='<div id="chatWindow"></div>';
