@@ -229,8 +229,8 @@ function msg (options) {
     $('#msgClaim').click(function (e) {
         hide();
     });
-    $('#chat-close').click(function (e) {
-        $('chat-container').fadeOut();
+    $('#chat-close').click(function () {
+        $('#chat-container').fadeOut();
     });
     _hideCurrent=function() {
       hide();
