@@ -103,3 +103,6 @@ a.fa:hover, a.fa:focus{
 .chat-input {
      bottom: 0px;
  }
+.chat-trigger{
+    cursor: pointer;
+}

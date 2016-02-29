@@ -186,7 +186,7 @@ switch ($_GET['con']) {
   case 'chat':
     if ($settings['chat_enable']!=1) {
       $content.='
-    <div class="chat-header">
+    <div class="chat-header ui-draggable-handle">
         <div class="chat-title">Dicecoin Chat</div><div class="chat-close"><i class="fa fa-times"></i></div>
     </div>
     <div class="chat-history" id="chat-history">
@@ -195,7 +195,7 @@ switch ($_GET['con']) {
     }
     else {
       $content.='
-<div class="chat-header">
+<div class="chat-header ui-draggable-handle">
         <div class="chat-title">Dicecoin Chat</div><div class="chat-close" onclick=javascript:$("#chat-container").fadeOut();><i class="fa fa-times"></i></div>
     </div>
     <div class="chat-history" id="chat-history">
