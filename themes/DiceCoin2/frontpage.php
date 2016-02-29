@@ -218,6 +218,14 @@
     </div>
     <div class="clear"></div>
 </div>
+
+<div class="chat-trigger">Open Chat</div>
+<div style="width: 350px; height: 400px; top: 591px; left: 1522px; right: auto; bottom: auto;" class="chat-container ui-draggable ui-resizable">
+    <div class="chat-header ui-draggable-handle">
+        <div class="chat-title">Dicecoin Chat</div><div class="chat-close"><i class="fa fa-times"></i></div>
+    </div>
+</div>
+
 <script>
     (function() {
 
