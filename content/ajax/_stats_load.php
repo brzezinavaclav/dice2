@@ -185,16 +185,34 @@ switch ($_GET['con']) {
   break;
   case 'chat':
     if ($settings['chat_enable']!=1) {
-      $content.='<br><br><br><i>Chat is not supported now.</i>';
+      $content.='
+    <div class="chat-header">
+        <div class="chat-title">Dicecoin Chat</div><div class="chat-close"><i class="fa fa-times"></i></div>
+    </div>
+    <div class="chat-history" id="chat-history">
+    <i>Chat is not supported now.</i>
+    </div>';
     }
     else {
-      $content.='<br><br><br><input type="text" id="composeTxt"><button onclick="javascript:compose($(\'#composeTxt\').val());return false;" id="composeBtn">Send</button>';
-      $content.='<div id="chatWindow"></div>';
-      $content.='<script type="text/javascript">';
-      $content.='initializeRefreshingFrameChat();';
-      $content.='$("#composeTxt").keypress(function(e) { if (e.which==13) compose($("#composeTxt").val()); });';
-      $content.='$("#composeTxt").qtip({content:{text:\'Press enter to send\'},style:{classes:\'qtip-bootstrap qtip-shadow\'},position:{my:\'bottom left\',at:\'top left\'}});';
-      $content.='</script>';
+      $content.='
+      <div class="chat-history" id="chat-history">
+        <div class="chat-entry">
+            <div class="chat-time">16:43:33</div>
+            <div class="chat-sender">
+                <a href="/user/stats/zmBNaP">Uvydywoje:</a>
+            </div>
+            <div class="chat-message">eu sou</div>
+        </div>
+        <div class="chat-entry">
+            <div class="chat-time">16:43:33</div>
+            <div class="chat-sender">
+                <a href="/user/stats/zmBNaP">Uvydywoje:</a>
+            </div>
+            <div class="chat-message">eu sou</div>
+        </div>
+    <div class="chat-input"><textarea></textarea></div>
+    </div>
+      ';
     }
   break;
   case 'high_rollers':

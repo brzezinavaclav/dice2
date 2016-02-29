@@ -445,7 +445,7 @@ function faucet(content) {
                 faucet(data['content'])
             }
             else if(con=='chat'){
-                $("#chat-history").html(data['content']);
+                $("#chat-container").html(data['content']);
                 $("#chat-container").fadeIn();
             }
         }

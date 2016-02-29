@@ -221,9 +221,7 @@
 
 <div class="chat-trigger" id="_st_chat" onclick="javascript:_stats_content('chat');return false;">Open Chat</div>
 <div style="width: 350px; height: 400px; right: 0; bottom: 0; display: none" id="chat-container">
-    <div class="chat-header">
-        <div class="chat-title">Dicecoin Chat</div><div class="chat-close"><i class="fa fa-times"></i></div>
-    </div>
+
     <div class="chat-history" id="chat-history">
         <div class="chat-entry">
             <div class="chat-time">16:43:33</div>
