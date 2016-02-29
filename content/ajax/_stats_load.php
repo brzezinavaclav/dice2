@@ -191,7 +191,7 @@ switch ($_GET['con']) {
     </div>
     <div class="chat-history" id="chat-history">
     <i>Chat is not supported now.</i>
-    </div><div style="z-index: 90;" class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"></div>';
+    </div>';
     }
     else {
       $content.='
@@ -201,7 +201,6 @@ switch ($_GET['con']) {
     <div class="chat-history" id="chat-history">
     </div>
         <div class="chat-input"><textarea id="composeTxt"></textarea></div>
-        <div style="z-index: 90;" class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"></div>
       ';
       $content.='<script type="text/javascript">';
       $content.='initializeRefreshingFrameChat();';

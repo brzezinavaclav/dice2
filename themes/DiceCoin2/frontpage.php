@@ -240,7 +240,7 @@
 </div>
 
 <div class="chat-trigger" id="_st_chat" onclick="javascript:_stats_content('chat');return false;">Open Chat</div>
-<div style="width: 350px; height: 400px; right: 0; bottom: 0; display: none" class="chat-container  ui-draggable ui-resizable" id="chat-container">
+<div style="width: 350px; height: 400px; right: 0; bottom: 0; display: none" class="chat-container  ui-draggable" id="chat-container">
 
 </div>
 
