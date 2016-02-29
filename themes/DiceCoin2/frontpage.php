@@ -189,7 +189,7 @@
                                     <div class="label">Your balance:</div>
                                 </div>
                                 <div class="col-xs-8">
-                                    <i class="fa fa-btc"></i><strong id="balance" data-balance=""><?php echo sprintf("%.8f",$player['balance']); ?></strong>
+                                    <i class="fa fa-btc"></i><strong class="balance" data-balance=""><?php echo sprintf("%.8f",$player['balance']); ?></strong>
                                 </div>
                             </div>
                             <div data-original-title="Awaiting 1 confirmation(s)" id="pending_balance" class="row unconfirmed" title="" data-toggle="tooltip" data-placement="top" style="display:none" "="">
