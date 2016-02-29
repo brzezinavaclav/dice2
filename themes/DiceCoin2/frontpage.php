@@ -82,6 +82,26 @@
                             </div>
 
                             <div role="tabpanel" class="tab-pane" id="automatic">
+                                <div class="select info-block">
+                                    <div class="block-content value">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <td><span id="under_over_txt">Roll under</span></td>
+                                                <td class="second">Multiplier</td>
+                                                <td class="third">Win chance</td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td onclick="javascript:inverse();" style="font-weight: 300; font-size: 21px;cursor: pointer;"><span id="under_over_num">49.50</span></td>
+                                                <td class="second"><input type="text" id="betTb_multiplier" value="2.00"><span class="input_addon">X</span></td>
+                                                <td class="third"><input type="text" id="betTb_chance" value="49.50"><span class="input_addon">%</span></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                                 <form action="#" id="auto_form">
                                     <div class="auto-play-block">
                                         <div class="row">
