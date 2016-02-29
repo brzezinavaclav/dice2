@@ -100,3 +100,6 @@ a.fa:hover, a.fa:focus{
 .default-row .status {
     text-transform: uppercase;
 }
+.chat-input {
+     bottom: 0px;
+ }
