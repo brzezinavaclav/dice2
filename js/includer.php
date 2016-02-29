@@ -166,7 +166,7 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
                 $("#botBtn").html('Rolls left: '+operateNum);
               }
             }
-            if (bot==true && data['error']!='yes') {
+            if (bot==true && data['error']=='yes') {
               startAutomat();
             }
           }

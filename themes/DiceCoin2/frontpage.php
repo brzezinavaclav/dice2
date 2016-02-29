@@ -105,7 +105,7 @@
                                 <form action="#" id="auto_form">
                                     <div class="auto-play-block">
                                         <div class="row">
-                                            <input class="input" id="bt_wager_bB" placeholder="Base bet" type="text"  required="">
+                                            <input class="input" id="bt_wager_bB" placeholder="Base bet" type="text">
                                             <input class="input" id="bB_max_loss_val" placeholder="Max loss" type="text">
                                             <input class="input" id="bB_max_win_val" placeholder="Max Profit" type="text">
                                         </div>
@@ -114,14 +114,14 @@
                                                 <div style="padding-left: 3px">
                                                     <label>Operate</label>
                                                     <br>
-                                                    <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked" required="">
+                                                    <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked">
                                                     <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
                                                 </div>
                                                 <div style="padding-left: 3px">
                                                     <input id="bB_operate_secs" class="bB_checkbox" type="checkbox">
                                                     <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label><br>
                                                 </div>
-                                                <input class="input" id="bt_rolls_bB" placeholder="100" type="text" style="margin-top: 10px;">
+                                                <input class="input" id="bt_rolls_bB" value="10" type="text" style="margin-top: 10px;">
                                             </div>
                                             <div style="width: 145px; float: left;">
                                                 <div style="padding-left: 3px">
