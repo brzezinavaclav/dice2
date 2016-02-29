@@ -224,19 +224,21 @@
     <div class="chat-header">
         <div class="chat-title">Dicecoin Chat</div><div class="chat-close"><i class="fa fa-times"></i></div>
     </div>
-    <div class="chat-entry">
-        <div class="chat-time">16:43:33</div>
-        <div class="chat-sender">
-            <a href="/user/stats/zmBNaP">Uvydywoje:</a>
+    <div class="chat-history">
+        <div class="chat-entry">
+            <div class="chat-time">16:43:33</div>
+            <div class="chat-sender">
+                <a href="/user/stats/zmBNaP">Uvydywoje:</a>
+            </div>
+            <div class="chat-message">eu sou</div>
         </div>
-        <div class="chat-message">eu sou</div>
-    </div>
-    <div class="chat-entry">
-        <div class="chat-time">16:43:33</div>
-        <div class="chat-sender">
-            <a href="/user/stats/zmBNaP">Uvydywoje:</a>
+        <div class="chat-entry">
+            <div class="chat-time">16:43:33</div>
+            <div class="chat-sender">
+                <a href="/user/stats/zmBNaP">Uvydywoje:</a>
+            </div>
+            <div class="chat-message">eu sou</div>
         </div>
-        <div class="chat-message">eu sou</div>
     </div>
 </div>
 
