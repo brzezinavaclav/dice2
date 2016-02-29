@@ -318,4 +318,7 @@
     $(function() {
         $( ".ui-draggable" ).draggable();
     });
+    $(function() {
+        $( ".ui-resizable" ).resizable();
+    });
 </script>
