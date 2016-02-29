@@ -444,6 +444,10 @@ function faucet(content) {
             else if(con=='giveaway'){
                 faucet(data['content'])
             }
+            else if(con=='chat'){
+                $("#chat-history").html(data['content']);
+                $("#chat-container").fadeIn();
+            }
         }
       });
       if (con!='giveaway' && con!='chat' && con!='stats') timeout_=setTimeout("tm_interval_content_('"+con+"')",1000);
