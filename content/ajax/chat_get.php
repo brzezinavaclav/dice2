@@ -17,10 +17,16 @@ $content='';
 
 $messages=mysql_query("SELECT * FROM `chat` WHERE `time`>NOW()-INTERVAL 10 MINUTE ORDER BY `time` DESC");
 while ($message=mysql_fetch_array($messages)) {
-  $content.='<div id="chat_message">';
   $sender=mysql_fetch_array(mysql_query("SELECT `alias` FROM `players` WHERE `id`=$message[sender] LIMIT 1"));
-  $content.='<div id="content" title="'.$message['time'].'"><b>'.$sender['alias'].'</b>: '.$message['content'].'</div>';
-  $content.='</div>';
+  $content.= '
+  <div class="chat-entry">
+            <div class="chat-time">'.$message['time'].'</div>
+            <div class="chat-sender">
+                <a href="/user/stats/zmBNaP">'.$sender['alias'].':</a>
+            </div>
+            <div class="chat-message">'.$message['content'].'</div>
+        </div>
+  ';
 }
 
 echo json_encode(array('content'=>$content));

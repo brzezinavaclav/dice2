@@ -493,7 +493,7 @@ function faucet(content) {
         'url': './content/ajax/chat_get.php',
         'dataType': "json",
         'success': function(data) {
-          $("#chatWindow").html(data['content']);
+          $("#chat-history").html(data['content']);
         }
       });          
     }
