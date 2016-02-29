@@ -195,7 +195,8 @@ switch ($_GET['con']) {
     }
     else {
       $content.='
-      <div class="chat-history" id="chat-history">
+
+    <div class="chat-history" id="chat-history">
         <div class="chat-entry">
             <div class="chat-time">16:43:33</div>
             <div class="chat-sender">
@@ -210,7 +211,6 @@ switch ($_GET['con']) {
             </div>
             <div class="chat-message">eu sou</div>
         </div>
-    <div class="chat-input"><textarea></textarea></div>
     </div>
       ';
     }
