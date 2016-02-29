@@ -199,7 +199,6 @@ switch ($_GET['con']) {
         <div class="chat-title">Dicecoin Chat</div><div id="chat-close" class="chat-close"><i class="fa fa-times"></i></div>
     </div>
     <div class="chat-history" id="chat-history">
-
     </div>
         <div class="chat-input"><textarea id="composeTxt"></textarea></div>
       ';
