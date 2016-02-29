@@ -151,7 +151,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <input type="submit" href="#" onclick="javascript:startAutomat();return false;" id="botBtn" class="button roll-dice">Start</input>
+                                    <button type="submit" href="#" onclick="javascript:startAutomat();return false;" id="botBtn" class="button roll-dice">Start</button>
                                 </form>
                             </div>
                         </div>
