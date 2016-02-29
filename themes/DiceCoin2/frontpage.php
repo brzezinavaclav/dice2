@@ -315,8 +315,8 @@
         tabContentContainers: '.tab-pane'
     });
     tabBet.init();
-    $('#chat-close').click(function(){
+    document.querySelector('chat-close').addEventListener('click', function() {
         alert();
-        $("#chat-container").fadeOut();
+        document.querySelector("chat-container").fadeOut();
     });
 </script>
