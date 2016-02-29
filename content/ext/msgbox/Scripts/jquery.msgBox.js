@@ -229,10 +229,11 @@ function msg (options) {
     $('#msgClaim').click(function (e) {
         hide();
     });
-    $('#chat-close').click(function () {
-        alert();
-    });
     _hideCurrent=function() {
       hide();
     }
 };
+
+$('#chat-close').click(function () {
+    alert();
+});
