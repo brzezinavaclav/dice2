@@ -316,6 +316,7 @@
     });
     tabBet.init();
     $('#chat-close').click(function(){
+        alert();
         $("#chat-container").fadeOut();
     });
 </script>
