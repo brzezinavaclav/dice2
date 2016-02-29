@@ -163,10 +163,10 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
               },<?php echo $settings['rolls_mintime_bB']; ?>);
               if (operateMode==0) {
                 operateNum--;
-                $("#botBtn").html('ROLLS LEFT TO OPERATE: '+operateNum);
+                $("#botBtn").html('Rolls left: '+operateNum);
               }
             }
-            if (bot==true && data['error']=='yes') {
+            if (bot==true && data['error']!='yes') {
               startAutomat();
             }
           }
